@@ -1,0 +1,11 @@
+Adapter:- Connect to the enzyme
+shallow:- Render component(Not Deeply)
+        (Will not render child component whole, rather than use them as just placeholder.)
+describe:- Used as function for testing
+it:- Used as testcase. Describe can have multiple it() in it.
+expect:- Used as expectations
+beforeEach:- Used as function to do some task before execution of all tests.
+afterEach:- Used as function to do some task after execution of all tests.
+wrapper.setProps:- Used for apply props to the component
+                    (Where wrapper is a shallow object)
+contains:- Used for getting matched statements.
